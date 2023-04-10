@@ -1,0 +1,308 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    scroll-behavior: smooth;
+   
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background: #9b9898;
+    color: white;
+    padding: 20px;
+}
+.items{
+display: flex;
+font-size: 22px;
+font-weight: bold;
+padding: 5px;
+}
+.item{
+    display: inline-block;
+margin-right: 10px;
+color: white;
+}
+
+.buttons {
+    display: flex;
+}
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+
+
+
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 900;
+}
+.red{
+    color: red;
+}
+.desc{
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 35px;
+    margin-left: 180px;
+}
+
+.banner-details{
+    width: 700px;
+
+
+}
+.btn{
+    font-size: 18px;
+    padding: 18px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(73, 12, 12);
+    border: none;
+    transition: 0.5s;
+color: white;
+}
+.btn-2{
+    background-color: red;
+    border: none;
+    margin-right: 20px;
+    color: white;
+    
+}
+.service-container{
+    width: 1310px;
+    height: 117vh;
+    background-image: url('/asset/image/footer-bg.png'),linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.904));
+    background-blend-mode: overlay;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ml{
+    margin-left: 8px;
+}
+ol{
+  margin-left: 25px;
+  font-size: 20px;
+  line-height: ;
+}
+.author-details{
+display: flex;
+
+}
+.author-img-desc{
+    display: flex;
+margin-top: 20px;
+}
+.authore-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+}
+.m{
+    margin-top: 23px;
+    margin-left: 20px;
+}
+.authore-btn{
+    border-left: 1px solid red;
+    margin-top: 18px;
+    margin-left: 30px;
+    padding: 20px;
+
+}
+.btn3{
+    border-radius: 50px;
+    color: red;
+padding: auto;20px
+}
+.text-h{
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+.searvice-desc{
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.service-left-container{
+    margin-top: 100px;
+    width: 50%;
+}
+.mo{
+    margin-bottom: 20px;
+}
+.service-logo{
+    width: 50%;
+    
+}
+.service-1{
+padding: 50px;
+background-color: white;
+box-shadow: 4px 5px 8px rgb(143, 142, 142);
+width: 200px;
+height: 200px;
+border-radius: 10px;
+margin-bottom: 20px;
+margin-left: 20px;
+text-align: center;
+color: black;
+}
+.service-up{
+    display: flex;
+}
+.service-down{
+    display: flex;
+}
+.call-icons{
+    width: 90px;
+}
+.phone-call{
+    display: flex;
+}
+.btn4{
+    background-color: antiquewhite;
+    border-radius: 50px;
+    height: 70px;
+    padding: 20px !important;
+    width: 220px;
+}
+.appointment-section{
+    display: flex;
+    width: 80%;
+    background-color: rgb(248, 45, 45);
+    padding: 10px;
+    color: white;
+    margin: auto;
+    margin-top: -60px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    height: 180px;
+}
+.mie{
+    width: 400px;
+}
+.ox{
+    margin-left: 20px;
+}
+.sma{
+    font-size: 15px;
+}
+.ok{
+    border-left: 1px solid rgb(2, 196, 255);
+    padding: 20px;
+    border-right: 1px solid rgb(2, 196, 255);
+}
+.card{
+    width: 400px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+    margin-left: 20px;
+
+    background-color: rgba(174, 0, 255, 0.116);
+}
+.row{
+    display: flex;
+justify-content: center;
+}
+.card-img{
+    width: 400px;
+  border-radius: 10px;
+  
+}
+.p{
+    padding: 20px;
+    padding-top: 0;
+    color: #424040;
+}
+.o{
+    font-size: 22px;
+}
+.center{
+    text-align: center;
+    
+}
+.card-section-box{
+    margin-top: 30px;
+
+}
+.pos{
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+.x{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    height: 500px;
+background-color: black;
+color: white;
+
+}
+.logo-de{
+    width: 200px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.s{
+    margin-right: 80px;
+    margin-top: 150px;
+    
+}
+.usefull{
+    list-style: none;
+    list-style-type: none;
+}
+.mb{
+    margin-bottom: 9px;
+    font-size: 20px;
+
+}
+.white{
+    color: white;
+}
+.ol{
+    font-size: 20px;
+    
+}
+.fd{
+    font-size: 20px;
+}
+.hr{
+    width: 1000px;
+    
+    margin: auto;
+}
+.div{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
